@@ -13,7 +13,7 @@ public class TesteAutomatizado {
 		
 		//Abaixo site para baixar drivers do chrome, atenção com a versão do navegador ser compatível com a do site
 		//https://sites.google.com/a/chromium.org/chromedriver/downloads
-		System.setProperty("webdriver.chrome.driver", "/home/aroldo/Projetos/testes-de-sistema/drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/home/aroldo/Projetos/exemplo-selenium-webdriver/drivers/chromedriver");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.com.br/");
 		
